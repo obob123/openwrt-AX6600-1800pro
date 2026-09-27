@@ -9,7 +9,7 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: openwrt-23.05
-  CONFIG_FILE: configsax3000t-stock.config
+  CONFIG_FILE: configs/ax3000t-stock.config
   DIY_SCRIPT: scripts/Roc-script.sh
   CLASH_KERNEL: amd64
   MADS: false
