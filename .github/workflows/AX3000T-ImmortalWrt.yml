@@ -1,4 +1,4 @@
-name: RAX3000M-ImmortalWrt
+name: AX3000T-ImmortalWrt
 
 on:
   workflow_dispatch:
@@ -9,13 +9,13 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: openwrt-23.05
-  CONFIG_FILE: configs/RAX3000M.config
+  CONFIG_FILE: configsax3000t-stock.config
   DIY_SCRIPT: scripts/Roc-script.sh
   CLASH_KERNEL: amd64
   MADS: false
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: RAX3000M&K2P
+  FIRMWARE_TAG: AX3000T&K2P
   TZ: Asia/Shanghai
 
 jobs:
