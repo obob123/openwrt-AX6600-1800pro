@@ -7,7 +7,7 @@ on:
   #   - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt.git
+  REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: openwrt-24.10
   CONFIG_FILE: configs/ax3000t-stock.config
   DIY_SCRIPT: scripts/Roc-script.sh
