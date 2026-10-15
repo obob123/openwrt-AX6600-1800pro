@@ -1,4 +1,4 @@
-name: AX3000T-ImmortalWrt
+name: AX3000T-openwrt
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt.git
-  REPO_BRANCH: openwrt-23.05
+  REPO_BRANCH: openwrt-25.12
   CONFIG_FILE: configs/ax3000t-stock.config
   DIY_SCRIPT: scripts/Roc-script.sh
   CLASH_KERNEL: amd64
