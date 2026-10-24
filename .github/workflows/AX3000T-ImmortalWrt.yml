@@ -8,7 +8,7 @@ on:
 
 env:
   REPO_URL: https://github.com/lgs2007m/immortalwrt-mt798x
-  REPO_BRANCH: openwrt-25.12
+  REPO_BRANCH: master
   # REPO_URL: https://github.com/laipeng668/immortalwrt.git
   # REPO_BRANCH: master
   CONFIG_FILE: configs/ax3000t-stock.config
